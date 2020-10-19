@@ -23,12 +23,12 @@ Basically, the Project Cars 2 Protocol sends some packages depending on what is 
 # What you need:
 - ESP32;
 - Arduino Uno or NANO;
-- MCP2515;
+- MCP2515 and [MCP2515 Library](https://github.com/autowp/arduino-mcp2515);
 - PSA can 2010 Dashboard (i use a 3008 TFT screen)
 
 
 ``
-You can read more about the PSA CAN, and download the MCP2515 library to use in this project: [https://github.com/autowp/arduino-mcp2515](https://github.com/autowp/arduino-mcp2515)
+You can read more about the PSA CAN, and download the MCP2515 library to use in this project: https://github.com/autowp/arduino-mcp2515
 ``
 
 # ESP32
