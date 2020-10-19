@@ -25,6 +25,8 @@ Basically, the Project Cars 2 Protocol sends some packages depending on what is 
 - Arduino Uno or NANO;
 - MCP2515;
 - PSA can 2010 Dashboard (i use a 3008 TFT screen)
+
+
 ``
 You can read more about the PSA CAN, and download the MCP2515 library to use in this project: https://github.com/autowp/arduino-mcp2515
 ``
@@ -32,7 +34,9 @@ You can read more about the PSA CAN, and download the MCP2515 library to use in 
 # ESP32
 On this project the ESP32 was used to receive the UDP data from the game, by wifi, and convert the values to understendable values. Like Km/h, RPM and Gear Number, and then convert again to a HEX.
 after all conversions the ESP32 makes a PACK and send it by serial port to the arduino.
-***You will connect ONLY the TX port of the ESP32 to the RX port of the ARDUINO, DON'T connect the TX of arduino on the RX ESP32!!!!***
+
+
+***You will connect ONLY the TX port of the ESP32 to the RX port of the ARDUINO, DON'T connect the TX of arduino on the RX ESP32!!!! remember to connect one ESP32 GROUND to Arduino GROUND too***
 
 # ARDUINO
 Arduino receive the packet on serial port from the ESP32, and use the MCP2515 to send can mensages to the 3008 Dashboard.
