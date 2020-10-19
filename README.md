@@ -28,7 +28,7 @@ Basically, the Project Cars 2 Protocol sends some packages depending on what is 
 
 
 ``
-You can read more about the PSA CAN, and download the MCP2515 library to use in this project: https://github.com/autowp/arduino-mcp2515
+You can read more about the PSA CAN, and download the MCP2515 library to use in this project: https://github.com/autowp/arduino-mcp2515 [https://github.com/autowp/arduino-mcp2515]
 ``
 
 # ESP32
